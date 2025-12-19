@@ -5,6 +5,8 @@
 pool:
   vmImage: 'Ubuntu 24.04'
   name: docpulse-dev-tmp
+container:
+  image: python:3.11
 
 steps:
 #- task: UsePythonVersion@0
