@@ -4,6 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 pool:
   vmImage: 'Ubuntu 16.04'
+  name: docpulse-dev-tmp
 
 steps:
 - task: UsePythonVersion@0
